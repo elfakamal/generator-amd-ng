@@ -1,0 +1,6 @@
+<section ng-controller="ControlsController">
+  <article ng-repeat="component in components">
+    <button class="btn btn-primary btn-xs" ng-click="start(component.name)">Start {{component.name}}</button>
+    <button class="btn btn-danger btn-xs" ng-click="stop(component.name)">Stop {{component.name}}</button>
+  </article>
+</section>

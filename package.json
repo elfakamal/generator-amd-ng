@@ -1,0 +1,38 @@
+{
+  "name": "generator-amd-ng",
+  "version": "0.1.0",
+  "description": "Yeoman generator for the AMD AngularJS components project",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "elfakamal/generator-amd-ng",
+  "author": {
+    "name": "Kamal Farsaoui",
+    "email": "",
+    "url": "https://github.com/elfakamal"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "amd",
+    "angular",
+    "component"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

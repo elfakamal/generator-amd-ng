@@ -1,0 +1,38 @@
+{
+  "name": "<%= appName %>",
+  "version": "0.1.0",
+  "homepage": "http//github.com/elfakamal/amd-ng-component",
+  "authors": [
+    "Kamal Farsaoui <elfa.kamal@gmail.com>"
+  ],
+  "description": "A component-based and event-driven architecture for AngularJS applications.",
+  "main": "app/scripts/global/layouts/index.html",
+  "keywords": [
+    "amd",
+    "component",
+    "angularJS",
+    "event-driven",
+    "architecture"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-resource": "latest",
+    "angular-cookies": "latest",
+    "angular-mocks": "latest",
+    "angular-route": "latest",
+    "bootstrap": "3.0.3",
+    "angular-bootstrap": "0.10.0",
+    "angular-ui-router": "#master",
+    "requirejs": "~2.1.11",
+    "requirejs-text": "~2.0.10",
+    "lodash": "~2.4.1"
+  }
+}
