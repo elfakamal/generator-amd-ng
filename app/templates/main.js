@@ -45,11 +45,9 @@ require([
   function(angular, app, constants)
   {
     angular.element(document).ready(function() {
-      //Fixing facebook bug with redirect
       if (window.location.hash === '#_=_')
         window.location.hash = '#!';
 
-      //Then init the app
       angular.bootstrap(document, [constants.APP_NAME]);
     });
 

@@ -21,7 +21,7 @@ define(["require", "angular", "underscore", "../../config/constants"], function(
           console.log("AMDComponent::bootstrap " + component);
           var main = "../../" + constants.AMD_FOLDER_NAME + "/" + component + "/" + constants.COMPONENT_MAIN_FILE;
 
-          //load the component and its view
+          //load the component.
           require([main], function(Component)
           {
             var preCompile = constants.COMPONENT_PRE_COMPILE_FUNCTION;
