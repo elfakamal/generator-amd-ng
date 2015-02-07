@@ -27,10 +27,9 @@ var AmdNgGenerator = yeoman.generators.Base.extend({
   },
 
   app: function () {
-    var dest = "";
-
-    dest = "app/scripts/global/services/" + this.serviceName + ".js";
-    this.template("service.js", dest, {serviceName: this.serviceName});
+    var dest = '';
+    dest = 'app/scripts/global/services/' + this.serviceName + '.js';
+    this.template('service.js', dest, {serviceName: this.serviceName});
   }
 });
 

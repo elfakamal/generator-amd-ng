@@ -1,7 +1,8 @@
-"use strict";
+'use strict';
 
-define(["./controllers/splash", "text!./views/base.html"], function(splashController, baseTemplate) {
+define(['text!./views/base.html'], function(baseTemplate) {
   return {
+    controllers: ['splash'],
     template: {
       base: baseTemplate
     }

@@ -27,10 +27,10 @@ var AmdNgGenerator = yeoman.generators.Base.extend({
   },
 
   app: function () {
-    var dest = "";
+    var dest = '';
 
-    dest = "app/scripts/global/layouts/" + this.layoutName + ".html";
-    this.template("layout.html", dest, {layoutName: this.layoutName});
+    dest = 'app/scripts/global/layouts/' + this.layoutName + '.html';
+    this.template('layout.html', dest, {layoutName: this.layoutName});
   }
 });
 

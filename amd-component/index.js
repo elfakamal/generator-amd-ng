@@ -28,27 +28,27 @@ var AmdNgGenerator = yeoman.generators.Base.extend({
 
   app: function () {
     //sample components
-    var dest = "";
-    this.mkdir("app/scripts/amd-components/" + this.componentName);
+    var dest = '';
+    this.mkdir('app/scripts/amd-components/' + this.componentName);
 
     //component's main file
-    dest = "app/scripts/amd-components/" + this.componentName + "/main.js";
-    this.template("main.js", dest, {componentName: this.componentName});
+    dest = 'app/scripts/amd-components/' + this.componentName + '/main.js';
+    this.template('main.js', dest, {componentName: this.componentName});
 
     //component's controllers
-    this.mkdir("app/scripts/amd-components/" + this.componentName + "/controllers");
-    dest = "app/scripts/amd-components/" + this.componentName + "/controllers/" + this.componentName + ".js";
-    this.template("controller.js", dest, {componentName: this.componentName});
+    this.mkdir('app/scripts/amd-components/' + this.componentName + '/controllers');
+    dest = 'app/scripts/amd-components/' + this.componentName + '/controllers/' + this.componentName + '.js';
+    this.template('controller.js', dest, {componentName: this.componentName});
 
     //component's models
-    this.mkdir("app/scripts/amd-components/" + this.componentName + "/models");
-    dest = "app/scripts/amd-components/" + this.componentName + "/models/" + this.componentName + ".js";
-    this.template("model.js", dest, {componentName: this.componentName});
+    this.mkdir('app/scripts/amd-components/' + this.componentName + '/models');
+    dest = 'app/scripts/amd-components/' + this.componentName + '/models/' + this.componentName + '.js';
+    this.template('model.js', dest, {componentName: this.componentName});
 
     //component's views
-    this.mkdir("app/scripts/amd-components/" + this.componentName + "/views");
-    dest = "app/scripts/amd-components/" + this.componentName + "/views/base.html";
-    this.template("base.html", dest, {componentName: this.componentName});
+    this.mkdir('app/scripts/amd-components/' + this.componentName + '/views');
+    dest = 'app/scripts/amd-components/' + this.componentName + '/views/base.html';
+    this.template('base.html', dest, {componentName: this.componentName});
   }
 });
 

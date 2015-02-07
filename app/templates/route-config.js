@@ -7,9 +7,17 @@ define([], function() {
     // For unmatched routes:
     $urlRouterProvider.otherwise('/');
 
-    // states for my app
+    // states for the app
     $stateProvider
-      .state('home', {
+      .state('About', {
+        url: '/about',
+        templateUrl: 'scripts/global/layouts/about.html'
+      })
+      .state('Contact', {
+        url: '/contact',
+        templateUrl: 'scripts/global/layouts/contact.html'
+      })
+      .state('Home', {
         url: '/',
         templateUrl: 'scripts/global/layouts/index.html'
       });

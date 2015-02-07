@@ -1,7 +1,8 @@
-"use strict";
+'use strict';
 
-define(["./controllers/header", "text!./views/base.html"], function(headerController, baseTemplate) {
+define(['text!./views/base.html'], function(baseTemplate) {
   return {
+    controllers: ['header'],
     template: {
       base: baseTemplate
     }

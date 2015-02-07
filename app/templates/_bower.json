@@ -6,7 +6,7 @@
     "Kamal Farsaoui <elfa.kamal@gmail.com>"
   ],
   "description": "A component-based and event-driven architecture for AngularJS applications.",
-  "main": "app/scripts/global/layouts/index.html",
+  "main": "app/index.html",
   "keywords": [
     "amd",
     "component",

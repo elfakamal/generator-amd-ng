@@ -12,8 +12,7 @@ var AmdNgGenerator = yeoman.generators.Base.extend({
     this.on('end', function () {
       if (!this.options['skip-install']) {
         this.installDependencies();
-
-//        this.spawnCommand("grunt", ["build"]);
+        // this.spawnCommand("grunt", ["build"]);
       }
     });
   },

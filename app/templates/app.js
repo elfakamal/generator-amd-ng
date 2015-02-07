@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
 define([
-  "angular",
-  "constants",
-  "./config/route-config",
-  "./config/location-config",
-  "./global/directives/amd-component"
+  'angular',
+  'constants',
+  './config/route-config',
+  './config/location-config',
+  './global/directives/amd-component'
 ],
 function(angular, constants, routeConfig, locationConfig, AMDComponentDirective) {
 
@@ -16,8 +16,8 @@ function(angular, constants, routeConfig, locationConfig, AMDComponentDirective)
     'ui.router',
     constants.APP_NAME + '.system'
   ])
-  .config(['$controllerProvider', '$compileProvider', '$filterProvider', '$provide',
-    function($controllerProvider, $compileProvider, $filterProvider, $provide)
+  .config([ '$controllerProvider', '$compileProvider', '$filterProvider', '$provide',
+    function($controllerProvider ,  $compileProvider ,  $filterProvider ,  $provide)
     {
       app.amd = {
         controller : $controllerProvider.register,
